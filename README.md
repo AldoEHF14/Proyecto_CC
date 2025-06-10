@@ -72,10 +72,10 @@ Durante el desarrollo, se abordaron y solucionaron varios retos:
 
 ## 👥 Autores
 
-- **Víctor Saúl García Godoy** – 2183042802  
-- **Aldo Enrique Hernández Flores** – 2193035908  
-- **Héctor Raciel Ledesma Vázquez** – 2193035999  
-- **Luis Alberto Soto Zárate** – 2193035819  
+- **Víctor Saúl García Godoy** 
+- **Aldo Enrique Hernández Flores**  
+- **Héctor Raciel Ledesma Vázquez** 
+- **Luis Alberto Soto Zárate**
 
 ---
 
@@ -96,6 +96,7 @@ Durante el desarrollo, se abordaron y solucionaron varios retos:
    ```
 
 ## 📂 Estructura del repositorio
+![Logo del proyecto](img/eatructura.png)
 
 ## 📌 Conclusión
 
