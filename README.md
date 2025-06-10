@@ -84,3 +84,19 @@ Durante el desarrollo, se abordaron y solucionaron varios retos:
 1. Compila el proyecto con MPI:  
    ```bash
    mpic++ -o optimizador main.cpp -std=c++11
+
+    ```
+2. Ejecuta el optimizador con mpirun:
+   ```bash
+    mpirun -np 4 ./optimizador
+   ```
+3. Lanza el mejor controlador en TORCS:
+   ```bash
+    ./launch_n_th_car.sh ../salidafinal/pesos_pob.txt 16
+   ```
+
+## 📂 Estructura del repositorio
+
+## 📌 Conclusión
+
+Este proyecto combina técnicas de computación paralela con inteligencia artificial evolutiva en un entorno realista, demostrando el uso de arquitecturas distribuidas para resolver problemas complejos de optimización en simuladores.
