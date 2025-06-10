@@ -7,7 +7,7 @@ Este proyecto implementa un algoritmo genético distribuido para optimizar los p
 
 ## 🎯 Objetivo del proyecto
 
-🎯 Diseñar un sistema de optimización de controladores autónomos para TORCS mediante un algoritmo genético paralelo, capaz de buscar mejores soluciones (pesos de la red neuronal) usando múltiples procesos distribuidos y comunicados por **MPI**.
+Diseñar un sistema de optimización de controladores autónomos para TORCS mediante un algoritmo genético paralelo, capaz de buscar mejores soluciones (pesos de la red neuronal) usando múltiples procesos distribuidos y comunicados por **MPI**.
 
 ---
 
@@ -21,10 +21,10 @@ Este proyecto implementa un algoritmo genético distribuido para optimizar los p
 
 ---
 
-## 🔄 Arquitectura del sistema
+## 📚 Arquitectura del sistema
 
-- 🧠 **Algoritmo genético** que evoluciona los pesos de redes neuronales por población.
-- 🧬 **Migración en anillo (Ring Topology):**
+- 🧬 **Algoritmo genético** que evoluciona los pesos de redes neuronales por población.
+- 🔄 **Migración en anillo (Ring Topology):**
   - Implementada con `MPI_Send` y `MPI_Recv`.
   - Envío de individuos entre islas.
 - 🧾 **Unión de poblaciones**: Al final, todas las islas envían sus mejores soluciones a la isla 0, que unifica la población global.
@@ -70,18 +70,9 @@ Durante el desarrollo, se abordaron y solucionaron varios retos:
 
 ---
 
-## 👥 Autores
+## ▶️ Cómo ejecutar
 
-- **Víctor Saúl García Godoy** 
-- **Aldo Enrique Hernández Flores**  
-- **Héctor Raciel Ledesma Vázquez** 
-- **Luis Alberto Soto Zárate**
-
----
-
-## 🏁 Cómo ejecutar
-
-1. Compila el proyecto con MPI:  
+1. 💻 Compila el proyecto con MPI:  
    ```bash
    mpic++ -o optimizador main.cpp -std=c++11
 
@@ -95,9 +86,24 @@ Durante el desarrollo, se abordaron y solucionaron varios retos:
     ./launch_n_th_car.sh ../salidafinal/pesos_pob.txt 16
    ```
 
+---
+
 ## 📂 Estructura del repositorio
 ![Logo del proyecto](img/Estructura.png)
+
+---
 
 ## 📌 Conclusión
 
 Este proyecto combina técnicas de computación paralela con inteligencia artificial evolutiva en un entorno realista, demostrando el uso de arquitecturas distribuidas para resolver problemas complejos de optimización en simuladores.
+
+---
+## 👥 Autores
+
+- **Víctor Saúl García Godoy** 
+- **Aldo Enrique Hernández Flores**  
+- **Héctor Raciel Ledesma Vázquez** 
+- **Luis Alberto Soto Zárate**
+
+---
+
