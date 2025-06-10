@@ -96,7 +96,7 @@ Durante el desarrollo, se abordaron y solucionaron varios retos:
    ```
 
 ## 📂 Estructura del repositorio
-![Logo del proyecto](imagen/Estructura.png)
+![Logo del proyecto](img/Estructura.png)
 
 ## 📌 Conclusión
 
