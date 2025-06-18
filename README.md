@@ -51,15 +51,6 @@ Diseñar un sistema de optimización de controladores autónomos para TORCS medi
 
 ---
 
-## 📈 Resultados
-
-Se logró ejecutar exitosamente una población de controladores, evaluar su desempeño y observar convergencia en los pesos más óptimos.
-
-📽 **Video de demostración de TORCS** (carrera con el mejor individuo):  
-https://docs.google.com/file/d/1-SNCDIuHAAWOPN4kS8-jzEj_jWtCGFuZ/preview
-
----
-
 ## ⚠️ Errores solucionados
 
 Durante el desarrollo, se abordaron y solucionaron varios retos:
@@ -67,6 +58,13 @@ Durante el desarrollo, se abordaron y solucionaron varios retos:
 - Errores de tamaño y declaración en buffers MPI.
 - Corrección de etiquetas de comunicación MPI.
 - Problemas de compilación e integración con TORCS.
+
+
+---
+
+
+## 📂 Estructura del repositorio
+![Logo del proyecto](img/Estructura.png)
 
 ---
 
@@ -88,8 +86,12 @@ Durante el desarrollo, se abordaron y solucionaron varios retos:
 
 ---
 
-## 📂 Estructura del repositorio
-![Logo del proyecto](img/Estructura.png)
+## 📈 Resultados
+
+Se logró ejecutar exitosamente una población de controladores, evaluar su desempeño y observar convergencia en los pesos más óptimos.
+
+📽 **Video de demostración de TORCS** (carrera con el mejor individuo):  
+https://docs.google.com/file/d/1-SNCDIuHAAWOPN4kS8-jzEj_jWtCGFuZ/preview
 
 ---
 
