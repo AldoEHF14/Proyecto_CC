@@ -100,12 +100,4 @@ https://docs.google.com/file/d/1-SNCDIuHAAWOPN4kS8-jzEj_jWtCGFuZ/preview
 Este proyecto combina técnicas de computación paralela con inteligencia artificial evolutiva en un entorno realista, demostrando el uso de arquitecturas distribuidas para resolver problemas complejos de optimización en simuladores.
 
 ---
-## 👥 Autores
-
-- **Víctor Saúl García Godoy** 
-- **Aldo Enrique Hernández Flores**  
-- **Héctor Raciel Ledesma Vázquez** 
-- **Luis Alberto Soto Zárate**
-
----
 
