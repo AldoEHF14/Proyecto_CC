@@ -11,7 +11,7 @@ Diseñar un sistema de optimización de controladores autónomos para TORCS medi
 
 ---
 
-## 🧬 Descripción técnica
+## 🧬 Descripción
 
 - Se utiliza un **algoritmo genético** en múltiples procesos (islas).
 - Cada proceso evoluciona su propia población de controladores.
@@ -42,18 +42,12 @@ Diseñar un sistema de optimización de controladores autónomos para TORCS medi
 
 ---
 
-## 📂 Archivos clave
+## 📌 Archivos clave
 
 - `pesos_pob.txt` → Pesos de la red neuronal por individuo.
 - `evals_pop.txt` → Evaluación de desempeño (tiempo/distancia).
 - `launch_n_th_car.sh` → Script para ejecutar TORCS con los pesos generados.
 - `optimizador_torcs_activo/` → Carpeta principal con el código fuente del proyecto.
-
----
-
-## 📂 Estructura del repositorio
-![Logo del proyecto](img/Estructura.png)
-
 ---
 
 ## ▶️ Cómo ejecutar
@@ -74,18 +68,7 @@ Diseñar un sistema de optimización de controladores autónomos para TORCS medi
 
 ---
 
-## 📈 Resultados
-
-Se logró ejecutar exitosamente una población de controladores, evaluar su desempeño y observar convergencia en los pesos más óptimos.
-
-📽 **Video de demostración de TORCS** (carrera con el mejor individuo):  
+## 📽 **Video de demostración de TORCS**:  
 https://docs.google.com/file/d/1-SNCDIuHAAWOPN4kS8-jzEj_jWtCGFuZ/preview
 
 ---
-
-## 📌 Conclusión
-
-Este proyecto combina técnicas de computación paralela con inteligencia artificial evolutiva en un entorno realista, demostrando el uso de arquitecturas distribuidas para resolver problemas complejos de optimización en simuladores.
-
----
-
