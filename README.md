@@ -1,7 +1,7 @@
 # UEA: Computo Concurrente
 # 🚗 Optimizador de Controladores para TORCS
 
-Este proyecto implementa un algoritmo genético distribuido para optimizar los pesos de controladores autónomos en el simulador de conducción **TORCS** (The Open Racing Car Simulator), aprovechando la computación concurrente mediante **MPI** y una arquitectura en **islas con topología en anillo**.
+Implementa un algoritmo genético distribuido para optimizar los pesos de controladores autónomos en el simulador de conducción **TORCS** (The Open Racing Car Simulator), aprovechando la computación concurrente mediante **MPI** y una arquitectura en **islas con topología en anillo**.
 
 ---
 
