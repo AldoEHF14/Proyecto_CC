@@ -5,15 +5,15 @@ Este proyecto implementa un algoritmo genético distribuido para optimizar los p
 
 ---
 
-## 🎯 Objetivo del proyecto
+## 🎯 Objetivo
 
-Diseñar un sistema de optimización de controladores autónomos para TORCS mediante un algoritmo genético paralelo, capaz de buscar mejores soluciones (pesos de la red neuronal) usando múltiples procesos distribuidos y comunicados por **MPI**.
+Diseñar un sistema de optimización de controladores autónomos para TORCS mediante un algoritmo genético, capaz de buscar mejores soluciones (pesos de la red neuronal) usando múltiples procesos distribuidos y comunicados por **MPI**.
 
 ---
 
 ## 🧬 Descripción técnica
 
-- Se utiliza un **algoritmo genético distribuido** en múltiples procesos (islas).
+- Se utiliza un **algoritmo genético** en múltiples procesos (islas).
 - Cada proceso evoluciona su propia población de controladores.
 - Se implementa una **migración entre islas** para compartir soluciones prometedoras.
 - Los controladores son evaluados usando métricas como **tiempo de carrera** y **distancia restante**, calculadas tras simular carreras en TORCS.
@@ -50,18 +50,6 @@ Diseñar un sistema de optimización de controladores autónomos para TORCS medi
 - `optimizador_torcs_activo/` → Carpeta principal con el código fuente del proyecto.
 
 ---
-
-## ⚠️ Errores solucionados
-
-Durante el desarrollo, se abordaron y solucionaron varios retos:
-- Instalación incorrecta de `mpich` → se migró a `openmpi-bin`.
-- Errores de tamaño y declaración en buffers MPI.
-- Corrección de etiquetas de comunicación MPI.
-- Problemas de compilación e integración con TORCS.
-
-
----
-
 
 ## 📂 Estructura del repositorio
 ![Logo del proyecto](img/Estructura.png)
